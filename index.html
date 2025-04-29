@@ -3,8 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Д.Пүрэвдорж - Чингис шүлэг</title>
-  <meta name="description" content="Д.Пүрэвдоржийн 'Чингис' шүлэг, цахим хичээл, мэдлэг бататгах материалууд.">
+  <title>myweb</title>
+  <style>
+    :root {
+      --primary: #5D5FEF;
+      --accent: #FFB6B9;
+      --bg-light: #F9F9FF;
+      --text-dark: #333;
+      --text-light: #666;
+      --font-title: 'Rubik', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background: linear-gradient(135deg, var(--bg-light), #E0C3FC);
+      color: var(--text-dark);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 0 1.5rem;
+    }
+
+    header {
+      background: var(--primary);
+      padding: 1.5rem 0;
+      text-align: center;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-family: var(--font-title);
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem 0;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+    }
+
+    h2 {
+      font-family: var(--font-title);
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: var(--text-light);
+      padding-left: 1rem;
+      border-left: 4px solid var(--accent);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 0.9rem;
+      color: var(--text-light);
+      background: #f0f0ff;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -24,45 +135,70 @@
     <section id="about">
       <h2>Хичээлийн тайлбар</h2>
       <p>
-        Д.Пүрэвдорж – “Чингис” шүлэг...
+        Д.Пүрэвдорж – “Чингис” шүлэг
+
+        ...Их хаан минь уулын оргилд төрсөн юм  
+        Эрин зуунд ганцхан мандсан юм  
+        Зуу зуун жилийн түүхийн шаргал хуудаснаа  
+        Зулай дээр нь нар мандсан юм...
+
+        <br><br>
+        <strong>Шүлгийн товч агуулга:</strong>  
+        Энэ шүлэгт Чингис хааны түүхэн ач холбогдол, эх оронч бахархал, байгаль-уран зүйг хослуулан дүрсэлсэн байдаг.
+
+        <br><br>
+        <strong>Зорилго:</strong>  
+        Сурагчид шүлгийн утга санаа, хэл найруулгын онцлог, дүрслэл, зүйрлэл, уран хэллэгийг ойлгож сурах.
       </p>
     </section>
 
     <section id="poem">
-      <h2>Цахим видео хичээл</h2>
+      <h2>Д.Пүрэвдоржийн "Чингис" шүлэг цахим видео хичээл</h2>
       <blockquote>
-        <a href="https://drive.google.com/file/d/1efvy8lp9yW4Z7VqKIlePaAhxlywfRYJm/view">Видео үзэх</a>
+        <a href="https://drive.google.com/file/d/1efvy8lp9yW4Z7VqKIlePaAhxlywfRYJm/view">Чингис шүлэг цахим видео хичээл</a>
       </blockquote>
     </section>
 
     <section id="lesson1">
-      <h2>Хичээл-1</h2>
+      <h2>Хичээл-1 Д.Пүрэвдорж "Чингис" шүлэг</h2>
       <a href="https://online.fliphtml5.com/iptpv/qgxz/#p=1">Хичээл-1</a>
     </section>
 
     <section id="lesson2">
-      <h2>Хичээл-2</h2>
-      <a href="https://online.fliphtml5.com/iptpv/qgxz/#p=1">Хичээл-2</a>
+      <h2>Хичээл-2 Д.Пүрэвдорж "Чингис" шүлэг</h2>
+      <a href="file:///C:/Users/User/Downloads/Хичээл-2%20Д.Пүрэвдорж%20Чингис%20шүлэг%20(2).pdf">Хичээл-2</a>
     </section>
 
-    <section id="test">
-      <h2>Мэдлэг бататгах</h2>
+    <section>
+      <h2>Мэдлэг бататгах асуулт</h2>
       <a href="https://docs.google.com/document/d/1-2f4_wAJpkgEdLRbx2cBpezBKfoLJ-U1/edit">Асуултууд</a>
     </section>
 
-    <section id="listen">
-      <h2>Шүлгийг сонсох</h2>
-      <a href="https://www.youtube.com/watch?v=19mtFcuoIj8">Youtube холбоос</a>
+    <section>
+      <h2>Бие даалт: Шүлгийн уран сайхны онцлог</h2>
+      <i>Доорх асуултуудад тулгуурлан 100-150 үгтэй богино эссэ бичнэ үү. Та шүлгийн мөрүүдийг иш татан тайлбар хийж, өөрийн ойлголтоо чөлөөтэй илэрхийлээрэй.</i>
+      <h3>Асуултууд:</h3>
+      <b>
+        1. Чингис хааны тухай энэ шүлгийн гол санаа юу вэ?<br>
+        2. Зохиолч энэ шүлэгт Чингис хааныг ямар уран дүрээр харуулсан бэ?<br>
+        3. “Хөх тэнгэрийн эзэн” гэх бэлгэдэл ямар утга агуулж байна вэ?<br>
+        4. Чи энэ шүлгээс ямар бахархал, урам зориг мэдэрсэн бэ?<br>
+      </b>
     </section>
 
-    <section id="author">
-      <h2>Зохиолчийн тухай</h2>
-      <a href="https://www.youtube.com/watch?v=XcHYLAkaflM">Мэдээлэл үзэх</a>
+    <section>
+      <h2>Чингис шүлэг сонсох хувилбар</h2>
+      <a href="https://www.youtube.com/watch?v=19mtFcuoIj8">"Чингис" шүлэг сонсох</a>
+    </section>
+
+    <section>
+      <h2>Зохиолчийн амьдрал, уран бүтээлийн тухай</h2>
+      <a href="https://www.youtube.com/watch?v=XcHYLAkaflM">Видео</a>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 он. Д.Пүрэвдоржийн "Чингис" шүлэг.</p>
+    <p>&copy; 2025 он Д.Пүрэвдоржийн "Чингис" шүлэг. Бүх эрх хуулиар хамгаалагдсан.</p>
   </footer>
 
 </body>
